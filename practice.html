@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>License Checker</title>
+    <script>
+        function checkLicense() {
+            let licenseValue = document.getElementById("default-search").value;
+            let resultDiv = document.getElementById("result");
+            let shopList = document.getElementById("shop-list");
+
+            // hide shop list always
+            shopList.style.display = "none";
+
+            if (licenseValue === "1") {
+                resultDiv.innerHTML = `
+                    <div id="name">
+                        <h1>Name : </h1>
+                        <p>Hanna</p>
+                    </div>
+                    <div id="age">
+                        <h1>Age: </h1>
+                        <p>14</p>
+                    </div>
+                `;
+            } 
+            else if (licenseValue === "2") {
+                resultDiv.innerHTML = `
+                     <div id="name">
+                        <h1>Name : </h1>
+                        <p>nardos</p>
+                    </div>
+                    <div id="age">
+                        <h1>Age: </h1>
+                        <p>4</p>
+                    </div>
+                `;
+            } 
+            else {
+                resultDiv.innerHTML = `<h1>Access Denied</h1>`;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>My License Checker</h1>
+    <input id="default-search" type="text" placeholder="Enter license number">
+    <button id="submit" type="button" onclick="checkLicense()">Submit</button>
+
+    <div id="result"></div>
+
+    <div id="shop-list" style="display: flex; align-items: center; flex-wrap: wrap; gap: 10px;">
+        <h3>Business Name:</h3><p>Ramen 1Shop</p>
+        <h3>Business Name:</h3><p>Ramen 2Shop</p>
+        <h3>Business Name:</h3><p>Ramen 3Shop</p>
+        <h3>Business Name:</h3><p>Ramen 4Shop</p>
+        <h3>Business Name:</h3><p>Ramen 5Shop</p>
+    </div>
+</body>
+</html>
