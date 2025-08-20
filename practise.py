@@ -8,19 +8,23 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 # ==== Chrome setup ====
 chrome_options = Options()
-chrome_options.add_argument("--headless")  
-chrome_options.add_experimental_option("excludeSwitches", ["enable-logging"])
+# chrome_options.add_argument("--headless")  
+# chrome_options.add_experimental_option("excludeSwitches", ["enable-logging"])
 
 
 license_no = input("Enter TIN/license number: ")
+# print("started")
 
+# driver = webdriver.Chrome()
+# driver.get("https://www.google.com")
 
+# print("Browser title:", driver.title)
 driver = webdriver.Chrome(
     service=Service(ChromeDriverManager().install()),
     options=chrome_options
 )
 
-driver.get("http://127.0.0.1:5500/practice.html") 
+driver.get("file:///C:/Users/previ/Desktop/RedCloud%20Data/practice.html") 
 driver.find_element(By.ID, "default-search").send_keys(license_no)
 driver.find_element(By.ID, "submit").click()
 try:
@@ -38,6 +42,6 @@ try:
     ).text
     print(name, name_v  )
     print(age, age_v )
-except:
+except Exception as e:
     print("Timed out waiting for message to appear.")
 driver.quit()

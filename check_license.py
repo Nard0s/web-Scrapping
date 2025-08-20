@@ -17,6 +17,7 @@ chrome_options.add_experimental_option("excludeSwitches", ["enable-logging"])
 license_no = input("Enter TIN/license number: ")
 
 
+
 driver = webdriver.Chrome(
     service=Service(ChromeDriverManager().install()),
     options=chrome_options
