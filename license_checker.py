@@ -27,7 +27,7 @@ with open('tin.csv', newline='', encoding='utf-8') as f:
     reader = csv.reader(f)
     tin = [row[0] for row in reader]
 
-LICENSE_NUMBERS = tin[:10]
+LICENSE_NUMBERS = tin[:20]
 OUTPUT_CSV = r"C:\Users\previ\Desktop\RedCloud Data\business_data_1.csv"
 def save_to_csv(data, filename):
     if not data:

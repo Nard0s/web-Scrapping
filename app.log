@@ -90,3 +90,330 @@ Stacktrace:
 2025-08-21 12:13:27,423 [INFO] 
 🎉 Data collection completed! Saved to C:\Users\previ\Desktop\RedCloud Data\business_data_1.csv
 2025-08-21 12:13:29,606 [INFO] ✅ Browser closed successfully
+2025-08-21 12:18:03,050 [INFO] ====== WebDriver manager ======
+2025-08-21 12:18:04,086 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 12:18:04,746 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 12:18:05,403 [INFO] Driver [C:\Users\previ\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-21 12:18:06,606 [INFO] ✅ ChromeDriver setup successful
+2025-08-21 12:18:06,606 [INFO] Driver setup successful
+2025-08-21 12:18:17,136 [INFO] ❌ Error: Message: tab crashed
+  (Session info: chrome=139.0.7258.138)
+Stacktrace:
+	GetHandleVerifier [0x0x74ffc3+65331]
+	GetHandleVerifier [0x0x750004+65396]
+	(No symbol) [0x0x543dc0]
+	(No symbol) [0x0x535c6a]
+	(No symbol) [0x0x5350d8]
+	(No symbol) [0x0x534c53]
+	(No symbol) [0x0x534961]
+	(No symbol) [0x0x532904]
+	(No symbol) [0x0x5333cd]
+	(No symbol) [0x0x53fbf9]
+	(No symbol) [0x0x5510b5]
+	(No symbol) [0x0x556aa6]
+	(No symbol) [0x0x533a0d]
+	(No symbol) [0x0x550950]
+	(No symbol) [0x0x5d2f03]
+	(No symbol) [0x0x5b12d6]
+	(No symbol) [0x0x580910]
+	(No symbol) [0x0x581784]
+	GetHandleVerifier [0x0x9938b3+2439203]
+	GetHandleVerifier [0x0x98eae2+2419282]
+	GetHandleVerifier [0x0x77712a+225434]
+	GetHandleVerifier [0x0x766e08+159096]
+	GetHandleVerifier [0x0x76dd5d+187597]
+	GetHandleVerifier [0x0x757ad8+96840]
+	GetHandleVerifier [0x0x757c62+97234]
+	GetHandleVerifier [0x0x74277a+9962]
+	BaseThreadInitThunk [0x0x75fa7ba9+25]
+	RtlInitializeExceptionChain [0x0x76fac0cb+107]
+	RtlClearBits [0x0x76fac04f+191]
+
+2025-08-21 12:18:27,269 [INFO] ====== WebDriver manager ======
+2025-08-21 12:18:28,096 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 12:18:28,738 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 12:18:29,327 [INFO] Driver [C:\Users\previ\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-21 12:18:30,371 [INFO] ✅ ChromeDriver setup successful
+2025-08-21 12:18:30,371 [INFO] Driver setup successful
+2025-08-21 12:18:55,659 [INFO] Navigating to: https://etrade.gov.et/business-license-checker
+2025-08-21 12:19:01,345 [INFO] ✅ Language changed to English.
+2025-08-21 12:19:01,345 [INFO] 
+--- Processing license 1/57253: 0085580259 ---
+2025-08-21 12:19:10,808 [INFO] 
+--- Processing license 2/57253: 0000041364 ---
+2025-08-21 12:19:20,187 [INFO] 
+--- Processing license 3/57253: 0038586361 ---
+2025-08-21 12:19:29,504 [INFO] 
+--- Processing license 4/57253: 0092540077 ---
+2025-08-21 12:19:38,810 [INFO] 
+--- Processing license 5/57253: 0075120916 ---
+2025-08-21 12:19:48,181 [INFO] ❌ Error: [Errno 13] Permission denied: 'C:\\Users\\previ\\Desktop\\RedCloud Data\\business_data_1.csv'
+2025-08-21 12:19:50,343 [INFO] ✅ Browser closed successfully
+2025-08-21 12:20:08,351 [INFO] ====== WebDriver manager ======
+2025-08-21 12:20:09,186 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 12:20:09,857 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 12:20:10,478 [INFO] Driver [C:\Users\previ\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-21 12:20:11,764 [INFO] ✅ ChromeDriver setup successful
+2025-08-21 12:20:11,764 [INFO] Driver setup successful
+2025-08-21 12:20:33,474 [INFO] Navigating to: https://etrade.gov.et/business-license-checker
+2025-08-21 12:20:39,167 [INFO] ✅ Language changed to English.
+2025-08-21 12:20:39,167 [INFO] 
+--- Processing license 1/57253: 0085580259 ---
+2025-08-21 12:20:48,597 [INFO] 
+--- Processing license 2/57253: 0000041364 ---
+2025-08-21 12:20:57,952 [INFO] 
+--- Processing license 3/57253: 0038586361 ---
+2025-08-21 12:21:07,325 [INFO] 
+--- Processing license 4/57253: 0092540077 ---
+2025-08-21 12:21:16,650 [INFO] 
+--- Processing license 5/57253: 0075120916 ---
+2025-08-21 12:21:26,063 [INFO] 
+--- Processing license 6/57253: 0003909662 ---
+2025-08-21 12:21:35,391 [INFO] 
+--- Processing license 7/57253: 0006394283 ---
+2025-08-21 12:21:44,834 [INFO] 
+--- Processing license 8/57253: 0003595952 ---
+2025-08-21 12:21:54,187 [INFO] 
+--- Processing license 9/57253: 0090582825 ---
+2025-08-21 12:22:03,506 [INFO] 
+--- Processing license 10/57253: 0005015503 ---
+2025-08-21 12:22:12,817 [INFO] 
+--- Processing license 11/57253: 0006239937 ---
+2025-08-21 12:22:22,139 [INFO] 
+--- Processing license 12/57253: 0060857350 ---
+2025-08-21 12:22:31,690 [INFO] 
+--- Processing license 13/57253: 0085521586 ---
+2025-08-21 12:22:41,011 [INFO] 
+--- Processing license 14/57253: 0000028194 ---
+2025-08-21 12:22:50,422 [INFO] 
+--- Processing license 15/57253: 0000668166 ---
+2025-08-21 12:22:59,792 [INFO] 
+--- Processing license 16/57253: 0061869498 ---
+2025-08-21 12:23:03,419 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/f48c90fb3f6b069ccf971c924b3ec98e
+2025-08-21 12:23:07,467 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000292DC9CB620>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f48c90fb3f6b069ccf971c924b3ec98e
+2025-08-21 12:23:11,535 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000292DC9CABA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f48c90fb3f6b069ccf971c924b3ec98e
+2025-08-21 12:23:15,582 [INFO] ✅ Browser closed successfully
+2025-08-21 12:23:45,747 [INFO] ====== WebDriver manager ======
+2025-08-21 12:23:46,640 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 12:23:47,271 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 12:23:47,896 [INFO] Driver [C:\Users\previ\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-21 12:23:49,130 [INFO] ✅ ChromeDriver setup successful
+2025-08-21 12:23:49,130 [INFO] Driver setup successful
+2025-08-21 12:24:15,688 [INFO] Navigating to: https://etrade.gov.et/business-license-checker
+2025-08-21 12:24:21,470 [INFO] ✅ Language changed to English.
+2025-08-21 12:24:21,470 [INFO] 
+--- Processing license 1/50: 0085580259 ---
+2025-08-21 12:24:30,991 [INFO] 
+--- Processing license 2/50: 0000041364 ---
+2025-08-21 12:24:40,338 [INFO] 
+--- Processing license 3/50: 0038586361 ---
+2025-08-21 12:24:49,734 [INFO] 
+--- Processing license 4/50: 0092540077 ---
+2025-08-21 12:24:59,096 [INFO] 
+--- Processing license 5/50: 0075120916 ---
+2025-08-21 12:25:08,488 [INFO] 
+--- Processing license 6/50: 0003909662 ---
+2025-08-21 12:25:17,904 [INFO] 
+--- Processing license 7/50: 0006394283 ---
+2025-08-21 12:25:27,276 [INFO] 
+--- Processing license 8/50: 0003595952 ---
+2025-08-21 12:25:36,654 [INFO] 
+--- Processing license 9/50: 0090582825 ---
+2025-08-21 12:25:46,070 [INFO] 
+--- Processing license 10/50: 0005015503 ---
+2025-08-21 12:25:55,394 [INFO] 
+--- Processing license 11/50: 0006239937 ---
+2025-08-21 12:26:04,829 [INFO] 
+--- Processing license 12/50: 0060857350 ---
+2025-08-21 12:26:14,203 [INFO] 
+--- Processing license 13/50: 0085521586 ---
+2025-08-21 12:26:23,590 [INFO] 
+--- Processing license 14/50: 0000028194 ---
+2025-08-21 12:26:32,911 [INFO] 
+--- Processing license 15/50: 0000668166 ---
+2025-08-21 12:26:42,259 [INFO] 
+--- Processing license 16/50: 0061869498 ---
+2025-08-21 12:26:52,657 [INFO] 
+--- Processing license 17/50: 0048640482 ---
+2025-08-21 12:27:02,332 [INFO] 
+--- Processing license 18/50: 0001490897 ---
+2025-08-21 12:27:15,956 [INFO] 
+--- Processing license 19/50: 0003271640 ---
+2025-08-21 12:27:30,646 [INFO] 
+--- Processing license 20/50: 0065532064 ---
+2025-08-21 12:27:40,009 [INFO] 
+--- Processing license 21/50: 0005330754 ---
+2025-08-21 12:27:49,375 [INFO] 
+--- Processing license 22/50: 0021883711 ---
+2025-08-21 12:27:58,815 [INFO] 
+--- Processing license 23/50: 0092554684 ---
+2025-08-21 12:28:08,202 [INFO] 
+--- Processing license 24/50: 0087801874 ---
+2025-08-21 12:28:17,867 [INFO] 
+--- Processing license 25/50: 0094774257 ---
+2025-08-21 12:28:27,210 [INFO] 
+--- Processing license 26/50: 0013086379 ---
+2025-08-21 12:28:36,551 [INFO] 
+--- Processing license 27/50: 0051689711 ---
+2025-08-21 12:28:45,853 [INFO] 
+--- Processing license 28/50: 0004918772 ---
+2025-08-21 12:28:55,202 [INFO] 
+--- Processing license 29/50: 0014608670 ---
+2025-08-21 12:29:04,505 [INFO] 
+--- Processing license 30/50: 0095312432 ---
+2025-08-21 12:29:13,886 [INFO] 
+--- Processing license 31/50: 0015140279 ---
+2025-08-21 12:29:23,233 [INFO] 
+--- Processing license 32/50: 0058319024 ---
+2025-08-21 12:29:32,576 [INFO] 
+--- Processing license 33/50: 0050333509 ---
+2025-08-21 12:29:41,921 [INFO] 
+--- Processing license 34/50: 0059770609 ---
+2025-08-21 12:29:51,269 [INFO] 
+--- Processing license 35/50: 0080092632 ---
+2025-08-21 12:30:00,604 [INFO] 
+--- Processing license 36/50: 0037277030 ---
+2025-08-21 12:30:10,073 [INFO] 
+--- Processing license 37/50: 0089449252 ---
+2025-08-21 12:30:19,426 [INFO] 
+--- Processing license 38/50: 0080774601 ---
+2025-08-21 12:30:28,773 [INFO] 
+--- Processing license 39/50: 0039818472 ---
+2025-08-21 12:30:38,087 [INFO] 
+--- Processing license 40/50: 0000267459 ---
+2025-08-21 12:30:47,457 [INFO] 
+--- Processing license 41/50: 0012126706 ---
+2025-08-21 12:30:56,751 [INFO] 
+--- Processing license 42/50: 0000877637 ---
+2025-08-21 12:31:06,084 [INFO] 
+--- Processing license 43/50: 0005674383 ---
+2025-08-21 12:31:15,404 [INFO] 
+--- Processing license 44/50: 0002432271-63 ---
+2025-08-21 12:31:24,724 [INFO] 
+--- Processing license 45/50: 0047143617 ---
+2025-08-21 12:31:34,023 [INFO] 
+--- Processing license 46/50: 0038010269 ---
+2025-08-21 12:31:43,333 [INFO] 
+--- Processing license 47/50: 0053351690 ---
+2025-08-21 12:31:52,671 [INFO] 
+--- Processing license 48/50: 0001357712 ---
+2025-08-21 12:32:01,982 [INFO] 
+--- Processing license 49/50: 0006129970 ---
+2025-08-21 12:32:11,304 [INFO] 
+--- Processing license 50/50: 0013722222 ---
+2025-08-21 12:32:18,640 [INFO] 
+🎉 Data collection completed! Saved to C:\Users\previ\Desktop\RedCloud Data\business_data_1.csv
+2025-08-21 12:32:21,216 [INFO] ✅ Browser closed successfully
+2025-08-21 12:33:45,006 [INFO] ====== WebDriver manager ======
+2025-08-21 12:33:45,931 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 12:33:46,696 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 12:33:47,337 [INFO] Driver [C:\Users\previ\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-21 12:33:48,537 [INFO] ✅ ChromeDriver setup successful
+2025-08-21 12:33:48,537 [INFO] Driver setup successful
+2025-08-21 12:34:07,279 [INFO] Navigating to: https://etrade.gov.et/business-license-checker
+2025-08-21 12:34:12,937 [INFO] ✅ Language changed to English.
+2025-08-21 12:34:12,937 [INFO] 
+--- Processing license 1/10: 0003909662 ---
+2025-08-21 12:34:22,399 [INFO] 
+--- Processing license 2/10: 0006394283 ---
+2025-08-21 12:34:31,724 [INFO] 
+--- Processing license 3/10: 0003595952 ---
+2025-08-21 12:34:41,048 [INFO] 
+--- Processing license 4/10: 0090582825 ---
+2025-08-21 12:34:50,377 [INFO] 
+--- Processing license 5/10: 0005015503 ---
+2025-08-21 12:34:59,704 [INFO] 
+--- Processing license 6/10: 0006239937 ---
+2025-08-21 12:35:09,071 [INFO] 
+--- Processing license 7/10: 0060857350 ---
+2025-08-21 12:35:18,458 [INFO] 
+--- Processing license 8/10: 0085521586 ---
+2025-08-21 12:35:27,841 [INFO] 
+--- Processing license 9/10: 0000028194 ---
+2025-08-21 12:35:37,166 [INFO] 
+--- Processing license 10/10: 0000668166 ---
+2025-08-21 12:35:44,486 [INFO] 
+🎉 Data collection completed! Saved to C:\Users\previ\Desktop\RedCloud Data\business_data_1.csv
+2025-08-21 12:35:46,676 [INFO] ✅ Browser closed successfully
+2025-08-21 12:35:59,806 [INFO] ====== WebDriver manager ======
+2025-08-21 12:36:00,726 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 12:36:01,960 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 12:36:02,831 [INFO] Driver [C:\Users\previ\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-21 12:36:03,996 [INFO] ✅ ChromeDriver setup successful
+2025-08-21 12:36:03,996 [INFO] Driver setup successful
+2025-08-21 12:36:29,019 [INFO] Navigating to: https://etrade.gov.et/business-license-checker
+2025-08-21 12:36:34,689 [INFO] ✅ Language changed to English.
+2025-08-21 12:36:34,689 [INFO] 
+--- Processing license 1/10: 0003909662 ---
+2025-08-21 12:36:44,058 [INFO] 
+--- Processing license 2/10: 0006394283 ---
+2025-08-21 12:36:53,363 [INFO] 
+--- Processing license 3/10: 0003595952 ---
+2025-08-21 12:37:02,784 [INFO] 
+--- Processing license 4/10: 0090582825 ---
+2025-08-21 12:37:12,230 [INFO] 
+--- Processing license 5/10: 0005015503 ---
+2025-08-21 12:37:21,556 [INFO] 
+--- Processing license 6/10: 0006239937 ---
+2025-08-21 12:37:30,920 [INFO] 
+--- Processing license 7/10: 0060857350 ---
+2025-08-21 12:37:40,286 [INFO] 
+--- Processing license 8/10: 0085521586 ---
+2025-08-21 12:37:49,609 [INFO] 
+--- Processing license 9/10: 0000028194 ---
+2025-08-21 12:37:58,927 [INFO] 
+--- Processing license 10/10: 0000668166 ---
+2025-08-21 12:38:06,306 [INFO] 
+🎉 Data collection completed! Saved to C:\Users\previ\Desktop\RedCloud Data\business_data_1.csv
+2025-08-21 12:38:08,486 [INFO] ✅ Browser closed successfully
+2025-08-21 13:54:58,165 [INFO] ====== WebDriver manager ======
+2025-08-21 13:54:59,338 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 13:55:00,118 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 13:55:00,762 [INFO] Driver [C:\Users\previ\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-21 13:55:02,233 [INFO] ✅ ChromeDriver setup successful
+2025-08-21 13:55:02,233 [INFO] Driver setup successful
+2025-08-21 13:55:28,212 [INFO] Navigating to: https://etrade.gov.et/business-license-checker
+2025-08-21 13:55:33,947 [INFO] ✅ Language changed to English.
+2025-08-21 13:55:33,947 [INFO] 
+--- Processing license 1/20: 0085580259 ---
+2025-08-21 13:55:43,576 [INFO] 
+--- Processing license 2/20: 0000041364 ---
+2025-08-21 13:55:53,023 [INFO] 
+--- Processing license 3/20: 0038586361 ---
+2025-08-21 13:56:02,419 [INFO] 
+--- Processing license 4/20: 0092540077 ---
+2025-08-21 13:56:11,779 [INFO] 
+--- Processing license 5/20: 0075120916 ---
+2025-08-21 13:56:21,128 [INFO] 
+--- Processing license 6/20: 0003909662 ---
+2025-08-21 13:56:30,528 [INFO] 
+--- Processing license 7/20: 0006394283 ---
+2025-08-21 13:56:39,860 [INFO] 
+--- Processing license 8/20: 0003595952 ---
+2025-08-21 13:56:49,215 [INFO] 
+--- Processing license 9/20: 0090582825 ---
+2025-08-21 13:56:58,564 [INFO] 
+--- Processing license 10/20: 0005015503 ---
+2025-08-21 13:57:08,073 [INFO] 
+--- Processing license 11/20: 0006239937 ---
+2025-08-21 13:57:17,454 [INFO] 
+--- Processing license 12/20: 0060857350 ---
+2025-08-21 13:57:26,825 [INFO] 
+--- Processing license 13/20: 0085521586 ---
+2025-08-21 13:57:36,218 [INFO] 
+--- Processing license 14/20: 0000028194 ---
+2025-08-21 13:57:45,613 [INFO] 
+--- Processing license 15/20: 0000668166 ---
+2025-08-21 13:57:54,970 [INFO] 
+--- Processing license 16/20: 0061869498 ---
+2025-08-21 13:58:05,937 [INFO] 
+--- Processing license 17/20: 0048640482 ---
+2025-08-21 13:58:15,854 [INFO] 
+--- Processing license 18/20: 0001490897 ---
+2025-08-21 13:58:26,901 [INFO] 
+--- Processing license 19/20: 0003271640 ---
+2025-08-21 13:58:40,208 [INFO] 
+--- Processing license 20/20: 0065532064 ---
+2025-08-21 13:58:47,617 [INFO] 
+🎉 Data collection completed! Saved to C:\Users\previ\Desktop\RedCloud Data\business_data_1.csv
+2025-08-21 13:58:49,876 [INFO] ✅ Browser closed successfully
