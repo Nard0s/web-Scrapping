@@ -28,7 +28,25 @@ with open('tin.csv', newline='', encoding='utf-8') as f:
     tin = [row[0] for row in reader]
 
 LICENSE_NUMBERS = tin[:10]
-OUTPUT_CSV = "business_data_1.csv"
+OUTPUT_CSV = r"C:\Users\previ\Desktop\RedCloud Data\business_data_1.csv"
+def save_to_csv(data, filename):
+    if not data:
+        return
+    fieldnames = set()
+    for record in data:
+        fieldnames.update(record.keys())
+    fieldnames = sorted(fieldnames)
+
+    try:
+        with open(filename, mode='a', newline='', encoding='utf-8') as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            if csvfile.tell() == 0:
+                writer.writeheader()
+            writer.writerows(data)
+    except Exception as e:
+        logging.info(f"❌ Failed to save CSV: {e}")
+
+
 BASE_URL = "https://etrade.gov.et/business-license-checker"
 
 def setup_driver():

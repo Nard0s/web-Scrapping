@@ -1,65 +1,92 @@
-2025-08-20 08:52:34,053 [INFO] Trying system geckodriver...
-2025-08-20 08:52:34,054 [INFO] No system geckodriver found
-2025-08-20 08:52:34,054 [INFO] Trying GeckoDriverManager (this may take a while)...
-2025-08-20 08:52:34,055 [INFO] GeckoDriverManager approach failed: module 'signal' has no attribute 'SIGALRM'
-2025-08-20 08:52:34,055 [INFO] Trying to find existing geckodriver in cache...
-2025-08-20 08:52:35,306 [INFO] No cached geckodriver found
-2025-08-20 08:57:18,702 [INFO] Trying system geckodriver...
-2025-08-20 08:57:18,703 [INFO] No system geckodriver found
-2025-08-20 08:57:18,703 [INFO] Trying GeckoDriverManager (this may take a while)...
-2025-08-20 08:57:18,703 [INFO] GeckoDriverManager approach failed: module 'signal' has no attribute 'SIGALRM'
-2025-08-20 08:57:18,703 [INFO] Trying to find existing geckodriver in cache...
-2025-08-20 08:57:19,440 [INFO] No cached geckodriver found
-2025-08-21 09:45:26,794 [INFO] Trying system geckodriver...
-2025-08-21 09:45:26,794 [INFO] No system geckodriver found
-2025-08-21 09:45:26,794 [INFO] Trying GeckoDriverManager (this may take a while)...
-2025-08-21 09:45:26,794 [INFO] GeckoDriverManager approach failed: module 'signal' has no attribute 'SIGALRM'
-2025-08-21 09:45:26,794 [INFO] Trying to find existing geckodriver in cache...
-2025-08-21 09:45:28,316 [INFO] No cached geckodriver found
-2025-08-21 09:47:41,984 [INFO] ====== WebDriver manager ======
-2025-08-21 09:47:42,984 [INFO] Get LATEST chromedriver version for google-chrome
-2025-08-21 09:47:43,691 [INFO] Get LATEST chromedriver version for google-chrome
-2025-08-21 09:47:44,320 [INFO] There is no [win64] chromedriver "139.0.7258.138" for browser google-chrome "139.0.7258" in cache
-2025-08-21 09:47:44,320 [INFO] Get LATEST chromedriver version for google-chrome
-2025-08-21 09:47:45,820 [INFO] WebDriver version 139.0.7258.138 selected
-2025-08-21 09:47:45,820 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.138/win32/chromedriver-win32.zip
-2025-08-21 09:47:45,820 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.138/win32/chromedriver-win32.zip
-2025-08-21 09:47:46,541 [INFO] Driver downloading response is 200
-2025-08-21 09:47:48,219 [INFO] Get LATEST chromedriver version for google-chrome
-2025-08-21 09:47:48,955 [INFO] Driver has been saved in cache [C:\Users\previ\.wdm\drivers\chromedriver\win64\139.0.7258.138]
-2025-08-21 09:47:50,718 [INFO] ✅ ChromeDriver setup successful
-2025-08-21 09:47:50,718 [INFO] Driver setup successful
-2025-08-21 09:48:05,298 [INFO] Navigating to: https://etrade.gov.et/business-license-checker
-2025-08-21 09:48:08,299 [INFO] ❌ Error: name 'change_language_to_english' is not defined
-2025-08-21 09:48:10,455 [INFO] ✅ Browser closed successfully
-2025-08-21 09:50:14,325 [INFO] ====== WebDriver manager ======
-2025-08-21 09:50:15,119 [INFO] Get LATEST chromedriver version for google-chrome
-2025-08-21 09:50:15,755 [INFO] Get LATEST chromedriver version for google-chrome
-2025-08-21 09:50:16,370 [INFO] Driver [C:\Users\previ\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe] found in cache
-2025-08-21 09:50:17,574 [INFO] ✅ ChromeDriver setup successful
-2025-08-21 09:50:17,574 [INFO] Driver setup successful
-2025-08-21 09:50:38,253 [INFO] Navigating to: https://etrade.gov.et/business-license-checker
-2025-08-21 09:50:43,935 [INFO] ✅ Language changed to English.
-2025-08-21 09:50:43,935 [INFO] 
+2025-08-21 11:59:51,761 [INFO] ====== WebDriver manager ======
+2025-08-21 11:59:52,523 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 11:59:53,173 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 11:59:53,833 [INFO] Driver [C:\Users\previ\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-21 11:59:55,128 [INFO] ✅ ChromeDriver setup successful
+2025-08-21 11:59:55,128 [INFO] Driver setup successful
+2025-08-21 12:01:20,982 [INFO] Navigating to: https://etrade.gov.et/business-license-checker
+2025-08-21 12:01:26,694 [INFO] ✅ Language changed to English.
+2025-08-21 12:01:26,694 [INFO] 
 --- Processing license 1/10: 0085580259 ---
-2025-08-21 09:50:53,304 [INFO] 
+2025-08-21 12:01:36,103 [INFO] 
 --- Processing license 2/10: 0000041364 ---
-2025-08-21 09:51:02,705 [INFO] 
+2025-08-21 12:01:45,452 [INFO] 
 --- Processing license 3/10: 0038586361 ---
-2025-08-21 09:51:12,019 [INFO] 
+2025-08-21 12:01:54,855 [INFO] 
 --- Processing license 4/10: 0092540077 ---
-2025-08-21 09:51:21,392 [INFO] 
+2025-08-21 12:02:04,196 [INFO] 
 --- Processing license 5/10: 0075120916 ---
-2025-08-21 09:51:30,777 [INFO] 
+2025-08-21 12:02:13,624 [INFO] 
 --- Processing license 6/10: 0003909662 ---
-2025-08-21 09:51:40,125 [INFO] 
+2025-08-21 12:02:24,037 [INFO] 
 --- Processing license 7/10: 0006394283 ---
-2025-08-21 09:51:49,432 [INFO] 
+2025-08-21 12:02:33,374 [INFO] 
 --- Processing license 8/10: 0003595952 ---
-2025-08-21 09:51:59,000 [INFO] 
+2025-08-21 12:02:42,706 [INFO] 
 --- Processing license 9/10: 0090582825 ---
-2025-08-21 09:52:08,315 [INFO] 
+2025-08-21 12:02:52,291 [INFO] 
 --- Processing license 10/10: 0005015503 ---
-2025-08-21 09:52:15,709 [INFO] 
+2025-08-21 12:02:59,993 [INFO] 
 🎉 Data collection completed! Saved to business_data_1.csv
-2025-08-21 09:52:17,850 [INFO] ✅ Browser closed successfully
+2025-08-21 12:03:14,538 [INFO] ✅ Browser closed successfully
+2025-08-21 12:11:03,852 [INFO] ====== WebDriver manager ======
+2025-08-21 12:11:05,007 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 12:11:05,668 [INFO] Get LATEST chromedriver version for google-chrome
+2025-08-21 12:11:06,306 [INFO] Driver [C:\Users\previ\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-21 12:11:07,646 [INFO] ✅ ChromeDriver setup successful
+2025-08-21 12:11:07,646 [INFO] Driver setup successful
+2025-08-21 12:11:50,292 [INFO] Navigating to: https://etrade.gov.et/business-license-checker
+2025-08-21 12:11:55,943 [INFO] ✅ Language changed to English.
+2025-08-21 12:11:55,943 [INFO] 
+--- Processing license 1/10: 0085580259 ---
+2025-08-21 12:12:05,341 [INFO] 
+--- Processing license 2/10: 0000041364 ---
+2025-08-21 12:12:14,666 [INFO] 
+--- Processing license 3/10: 0038586361 ---
+2025-08-21 12:12:23,996 [INFO] 
+--- Processing license 4/10: 0092540077 ---
+2025-08-21 12:12:33,288 [INFO] 
+--- Processing license 5/10: 0075120916 ---
+2025-08-21 12:12:40,677 [INFO] Error in main extraction: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=139.0.7258.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x2fffc3+65331]
+	GetHandleVerifier [0x0x300004+65396]
+	(No symbol) [0x0xf3f63]
+	(No symbol) [0x0xfa750]
+	(No symbol) [0x0xfca7a]
+	(No symbol) [0x0xfcaf7]
+	(No symbol) [0x0x1376be]
+	(No symbol) [0x0x1614dc]
+	(No symbol) [0x0x1320d4]
+	(No symbol) [0x0x161754]
+	(No symbol) [0x0x182bcb]
+	(No symbol) [0x0x1612d6]
+	(No symbol) [0x0x130910]
+	(No symbol) [0x0x131784]
+	GetHandleVerifier [0x0x5438b3+2439203]
+	GetHandleVerifier [0x0x53eae2+2419282]
+	GetHandleVerifier [0x0x32712a+225434]
+	GetHandleVerifier [0x0x316e08+159096]
+	GetHandleVerifier [0x0x31dd5d+187597]
+	GetHandleVerifier [0x0x307ad8+96840]
+	GetHandleVerifier [0x0x307c62+97234]
+	GetHandleVerifier [0x0x2f277a+9962]
+	BaseThreadInitThunk [0x0x75fa7ba9+25]
+	RtlInitializeExceptionChain [0x0x76fac0cb+107]
+	RtlClearBits [0x0x76fac04f+191]
+	(No symbol) [0x0]
+
+2025-08-21 12:12:42,679 [INFO] 
+--- Processing license 6/10: 0003909662 ---
+2025-08-21 12:12:52,017 [INFO] 
+--- Processing license 7/10: 0006394283 ---
+2025-08-21 12:13:01,377 [INFO] 
+--- Processing license 8/10: 0003595952 ---
+2025-08-21 12:13:10,760 [INFO] 
+--- Processing license 9/10: 0090582825 ---
+2025-08-21 12:13:20,063 [INFO] 
+--- Processing license 10/10: 0005015503 ---
+2025-08-21 12:13:27,423 [INFO] 
+🎉 Data collection completed! Saved to C:\Users\previ\Desktop\RedCloud Data\business_data_1.csv
+2025-08-21 12:13:29,606 [INFO] ✅ Browser closed successfully
